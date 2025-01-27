@@ -34,4 +34,4 @@ markdown_extensions:
 
 extra:
   annotate:
-    json: [.s2]  # Enables annotations inside strings for JSON
+    json: [.s2]  
