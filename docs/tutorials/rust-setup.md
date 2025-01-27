@@ -10,7 +10,7 @@ Before starting, ensure you have the following installed:
 * 🖥️ [Visual Studio Code](https://code.visualstudio.com/) with the **Dev Containers** extension
 * 📂 Git
 
-NOTE:
+!!! note
     For more information about installing Docker, refer to the [Docker Documentation](https://docs.docker.com/get-docker/).
 
 ---
@@ -39,7 +39,7 @@ Run the following commands in your terminal:
 
         {  
             "name": "Rust Dev Container",  
-            "image": "mcr.microsoft.com/devcontainers/rust:1.71",  
+            "image": "mcr.microsoft.com/devcontainers/rust:latest",  
             "customizations": {  
                 "vscode": {  
                     "extensions": ["rust-lang.rust-analyzer"]  
@@ -47,7 +47,8 @@ Run the following commands in your terminal:
             }  
         }  
 
-INFO: The rust-lang.rust-analyzer extension is officially maintained by the Rust team. It provides tools like syntax highlighting, autocompletion, and error checking.
+!!! info
+    The rust-lang.rust-analyzer extension is officially maintained by the Rust team. It provides tools like syntax highlighting, autocompletion, and error checking.
 
 ## Step 3: Verify Rust Installation 🐹
 Once the Dev Container is up and running, check the installed Rust version:
@@ -60,7 +61,8 @@ You should see output similar to:
 
     rustc 1.71.0 (abcd1234 2024-01-01)  
 
-NOTE: Using the Microsoft Rust Dev Container base image ensures you're running the latest stable version of Rust.
+!!! note
+     Using the Microsoft Rust Dev Container base image ensures you're running the latest stable version of Rust.
 
 ## Step 4: Create the Hello 423 Program ✨
 Now its time to create your first Rust program
@@ -97,7 +99,8 @@ Now its time to create your first Rust program
 
         Hello COMP423
 
-NOTE: Think of cargo build like the gcc command in COMP211. It compiles your code but doesn't run it automatically.
+!!! note
+    Think of cargo build like the gcc command in COMP211. It compiles your code but doesn't run it automatically.
 
 ## Step 6: Verify and Push 📝
 
